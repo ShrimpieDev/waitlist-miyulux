@@ -6,7 +6,17 @@ const ROOT_URL =
  * MiniApp configuration object. Must follow the Farcaster MiniApp specification.
  *
  * @see {@link https://miniapps.farcaster.xyz/docs/guides/publishing}
- */
+ */import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  other: {
+    'base:app_id': '695ee812646908900bbdadf5',
+  },
+};
+
+export default function Home() {
+  return (<div>{/* Your page content */}</div>);
+}
 export const minikitConfig = {
   accountAssociation: {
     header: "",
