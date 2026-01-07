@@ -15,8 +15,8 @@ export const minikitConfig = {
   },
   miniapp: {
     version: "1",
-    name: "Cubey", 
-    subtitle: "Your AI Ad Companion", 
+    name: "Miyulux's Money Machine(Maybe)", 
+    subtitle: "To earn money become money", 
     description: "Ads",
     screenshotUrls: [`${ROOT_URL}/screenshot-portrait.png`],
     iconUrl: `${ROOT_URL}/blue-icon.png`,
