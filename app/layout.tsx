@@ -4,6 +4,17 @@ import { SafeArea } from "@coinbase/onchainkit/minikit";
 import { minikitConfig } from "../minikit.config";
 import { RootProvider } from "./rootProvider";
 import "./globals.css";
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  other: {
+    'base:app_id': '695ee812646908900bbdadf5',
+  },
+};
+
+export default function Home() {
+  return (<div>{/* Your page content */}</div>);
+}
 
 export async function generateMetadata(): Promise<Metadata> {
   return {
